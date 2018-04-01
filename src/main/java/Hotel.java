@@ -32,4 +32,12 @@ public class Hotel {
     public ConferenceRoom getConferenceRoom() {
         return this.conferenceRoom;
     }
+
+    public void setDiningRoom(DiningRoom diningRoom) {
+        this.diningRoom = diningRoom;
+    }
+
+    public DiningRoom getDiningRoom() {
+        return this.diningRoom;
+    }
 }

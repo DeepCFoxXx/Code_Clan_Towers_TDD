@@ -50,4 +50,10 @@ public class TestHotel {
         assertEquals("Coruscant", hotel.getConferenceRoom().getName());
     }
 
+    @Test
+    public void canSetDiningRoom() {
+        hotel.setDiningRoom(diningRoom);
+        assertEquals("Mos Eisley Cantina", hotel.getDiningRoom().getName());
+    }
+
 }
