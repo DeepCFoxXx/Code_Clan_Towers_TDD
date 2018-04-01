@@ -16,4 +16,8 @@ public enum BedroomType {
         return capacity;
     }
 
+    public String getType() {
+        return type;
+    }
+
 }
