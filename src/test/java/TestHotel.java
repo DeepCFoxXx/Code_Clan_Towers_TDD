@@ -38,4 +38,10 @@ public class TestHotel {
         assertEquals(0, hotel.bedroomCount());
     }
 
+    @Test
+    public void canAddBedroom(){
+        hotel.addBedroom(singleRoom);
+        assertEquals(1, hotel.bedroomCount());
+    }
+
 }

@@ -20,4 +20,8 @@ public class Hotel {
     public int bedroomCount() {
         return this.bedrooms.size();
     }
+
+    public void addBedroom(Bedroom bedroom) {
+        this.bedrooms.add(bedroom);
+    }
 }
