@@ -15,4 +15,11 @@ public class Room {
     }
 
 
+    public int numberOfGuests() {
+        return this.guests.size();
+    }
+
+    public boolean isVacant() {
+        return numberOfGuests() == 0;
+    }
 }

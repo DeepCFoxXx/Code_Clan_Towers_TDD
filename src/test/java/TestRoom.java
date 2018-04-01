@@ -19,8 +19,13 @@ public class TestRoom {
     }
 
     @Test
-    public void hasCapacity() {
+    public void hasCapacity(){
         assertEquals(2, room.getCapacity());
     }
 
+    @Test
+    public void roomStartsEmpty(){
+        assertEquals(0, room.numberOfGuests());
+        assertEquals(true, room.isVacant());
+    }
 }
