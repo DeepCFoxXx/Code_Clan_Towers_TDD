@@ -50,4 +50,13 @@ public class TestRoom {
         room.checkIn(guest2);
         assertEquals(true, room.isFull());
     }
+
+    @Test
+    public void cannotCheckInGuestIfRoomFull() {
+        room.checkIn(guest1);
+        room.checkIn(guest2);
+        room.checkIn(guest3);
+        assertEquals(false, room.isVacant());
+        assertEquals(2, room.numberOfGuests());
+    }
 }
