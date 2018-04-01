@@ -22,4 +22,9 @@ public class TestConferenceRoom {
         assertEquals(5000, room.getCapacity());
     }
 
+    @Test
+    public void hasPricePerDay() {
+        assertEquals(2000, room.getPricePerDay(), 0.01);
+    }
+
 }

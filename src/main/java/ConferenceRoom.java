@@ -6,4 +6,10 @@ public class ConferenceRoom extends EventRoom {
         super(name, capacity);
         this.pricePerDay = pricePerDay;
     }
+
+
+    public double getPricePerDay() {
+        return this.pricePerDay;
+    }
+
 }
