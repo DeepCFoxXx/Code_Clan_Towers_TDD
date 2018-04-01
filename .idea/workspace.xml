@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8781753f-0459-4ddb-a142-057f749ac385" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestDiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestDiningRoom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,13 +41,15 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestDiningRoom.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#143#144#0" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#400#401#0" expanded="true" />
+                <element signature="e#430#431#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -590,7 +591,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDiningRoom.hasName">
+  <component name="RunManager" selected="JUnit.TestDiningRoom.hasCapacity">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -605,6 +606,23 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestDiningRoom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestDiningRoom" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -655,23 +673,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestEventRoom" />
       <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestRoom.cannotCheckInMoreGuestsThanRoomHolds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRoom" />
-      <option name="METHOD_NAME" value="cannotCheckInMoreGuestsThanRoomHolds" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -735,18 +736,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
-      <item itemvalue="JUnit.TestRoom.cannotCheckInMoreGuestsThanRoomHolds" />
       <item itemvalue="JUnit.TestEventRoom.hasName" />
       <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
       <item itemvalue="JUnit.TestDiningRoom.hasName" />
+      <item itemvalue="JUnit.TestDiningRoom.hasCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDiningRoom.hasCapacity" />
         <item itemvalue="JUnit.TestDiningRoom.hasName" />
         <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
         <item itemvalue="JUnit.TestEventRoom.hasName" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
-        <item itemvalue="JUnit.TestRoom.cannotCheckInMoreGuestsThanRoomHolds" />
       </list>
     </recent_temporary>
   </component>
@@ -764,9 +765,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRoom_canCheckInGuest - 2018.04.01 at 12h 55m 57s.xml">
-      <configuration name="TestRoom.canCheckInGuest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestRoom_canBeFull - 2018.04.01 at 12h 57m 44s.xml">
       <configuration name="TestRoom.canBeFull" configurationId="JUnit" />
     </history-entry>
@@ -794,6 +792,9 @@
     <history-entry file="TestEventRoom_hasCapacity - 2018.04.01 at 13h 17m 47s.xml">
       <configuration name="TestEventRoom.hasCapacity" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDiningRoom_hasName - 2018.04.01 at 13h 21m 07s.xml">
+      <configuration name="TestDiningRoom.hasName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -807,12 +808,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27310345" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -988,13 +989,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestDiningRoom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#143#144#0" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#400#401#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
