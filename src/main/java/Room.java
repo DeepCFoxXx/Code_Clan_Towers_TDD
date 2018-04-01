@@ -22,4 +22,8 @@ public class Room {
     public boolean isVacant() {
         return numberOfGuests() == 0;
     }
+
+    public void addGuest(Guest guest) {
+        this.guests.add(guest);
+    }
 }

@@ -28,4 +28,11 @@ public class TestRoom {
         assertEquals(0, room.numberOfGuests());
         assertEquals(true, room.isVacant());
     }
+
+    @Test
+    public void canCheckInGuest(){
+        room.addGuest(guest1);
+        assertEquals(1, room.numberOfGuests());
+        assertEquals(false, room.isVacant());
+    }
 }
