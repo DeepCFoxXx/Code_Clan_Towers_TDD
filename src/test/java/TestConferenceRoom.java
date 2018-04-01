@@ -17,4 +17,9 @@ public class TestConferenceRoom {
         assertEquals("Coruscant", room.getName());
     }
 
+    @Test
+    public void hasCapacity(){
+        assertEquals(5000, room.getCapacity());
+    }
+
 }

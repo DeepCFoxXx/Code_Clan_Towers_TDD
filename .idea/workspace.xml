@@ -586,12 +586,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestConferenceRoom.hasName">
+  <component name="RunManager" selected="JUnit.TestConferenceRoom.hasCapacity">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="TestConferenceRoom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestConferenceRoom" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestConferenceRoom.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
@@ -661,23 +678,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestEventRoom.hasName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestEventRoom" />
-      <option name="METHOD_NAME" value="hasName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -730,19 +730,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestEventRoom.hasName" />
       <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
       <item itemvalue="JUnit.TestDiningRoom.hasName" />
       <item itemvalue="JUnit.TestDiningRoom.hasCapacity" />
       <item itemvalue="JUnit.TestConferenceRoom.hasName" />
+      <item itemvalue="JUnit.TestConferenceRoom.hasCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestConferenceRoom.hasCapacity" />
         <item itemvalue="JUnit.TestConferenceRoom.hasName" />
         <item itemvalue="JUnit.TestDiningRoom.hasCapacity" />
         <item itemvalue="JUnit.TestDiningRoom.hasName" />
         <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
-        <item itemvalue="JUnit.TestEventRoom.hasName" />
       </list>
     </recent_temporary>
   </component>
