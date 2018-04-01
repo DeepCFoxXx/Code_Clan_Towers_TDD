@@ -69,4 +69,16 @@ public class TestHotel {
         assertEquals(false, hotel.getConferenceRoom().isVacant());
     }
 
+    @Test
+    public void cannotCheckTooManyGuestsIntoConferenceRoom() {
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        guestList.add(guest2);
+        guestList.add(guest3);
+        hotel.setConferenceRoom(conferenceRoom);
+        hotel.checkInGuestsToConferenceRoom(guestList);
+        assertEquals(0, hotel.getConferenceRoom().numberOfGuests());
+        assertEquals(true, hotel.getConferenceRoom().isVacant());
+    }
+
 }
