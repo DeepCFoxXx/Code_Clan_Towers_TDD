@@ -86,4 +86,37 @@ public class TestBedroom {
         assertEquals(false, doubleRoom.isFull());
     }
 
+    @Test
+    public void twinRoomHasNumber() {
+        assertEquals(103, twinRoom.getNumber());
+    }
+
+    @Test
+    public void twinRoomHasRoomType() {
+        assertEquals("Twin", twinRoom.getType());
+    }
+
+    @Test
+    public void twinRoomHasRoomPricePerNight() {
+        assertEquals(60.00, twinRoom.getPricePerNight(), 0.01);
+    }
+
+    @Test
+    public void twinRoomHasCapacity() {
+        assertEquals(2, twinRoom.getCapacity());
+    }
+
+
+    @Test
+    public void twinRoomStartsVacant() {
+        assertEquals(true, twinRoom.isVacant());
+        assertEquals(false, twinRoom.isFull());
+    }
+
+    @Test
+    public void twinRoomStartsEmpty() {
+        assertEquals(0, twinRoom.numberOfGuests());
+        assertEquals(false, twinRoom.isFull());
+    }
+
 }
