@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8781753f-0459-4ddb-a142-057f749ac385" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Bedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Bedroom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/TestBedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestBedroom.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BedroomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BedroomType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBedroom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,13 +46,15 @@
       <file leaf-file-name="Bedroom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Bedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="330">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#368#369#0" expanded="true" />
                 <element signature="e#397#398#0" expanded="true" />
                 <element signature="e#437#438#0" expanded="true" />
                 <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,13 +63,16 @@
       <file leaf-file-name="TestBedroom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="394">
+              <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
                 <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#720#721#0" expanded="true" />
                 <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -535,8 +542,8 @@
         <option value="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Room.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/BedroomType.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bedroom.java" />
       </list>
     </option>
@@ -610,7 +617,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomHasRoomPricePerNight">
+  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomHasCapacity">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -625,6 +632,23 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestBedroom.singleRoomHasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
+      <option name="METHOD_NAME" value="singleRoomHasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -675,23 +699,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
       <option name="METHOD_NAME" value="singleRoomHasRoomType" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestConferenceRoom.hasPricePerDay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConferenceRoom" />
-      <option name="METHOD_NAME" value="hasPricePerDay" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -754,19 +761,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestConferenceRoom.hasPricePerDay" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
+      <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
-        <item itemvalue="JUnit.TestConferenceRoom.hasPricePerDay" />
       </list>
     </recent_temporary>
   </component>
@@ -784,9 +791,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEventRoom_hasName - 2018.04.01 at 13h 14m 44s.xml">
-      <configuration name="TestEventRoom.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestEventRoom_hasCapacity - 2018.04.01 at 13h 17m 47s.xml">
       <configuration name="TestEventRoom.hasCapacity" configurationId="JUnit" />
     </history-entry>
@@ -813,6 +817,9 @@
     </history-entry>
     <history-entry file="TestBedroom_singleRoomHasRoomType - 2018.04.01 at 13h 54m 32s.xml">
       <configuration name="TestBedroom.singleRoomHasRoomType" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBedroom_singleRoomHasRoomPricePerNight - 2018.04.01 at 13h 59m 39s.xml">
+      <configuration name="TestBedroom.singleRoomHasRoomPricePerNight" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -851,6 +858,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/untitled/build.gradle">
@@ -1016,26 +1028,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Bedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="e#368#369#0" expanded="true" />
             <element signature="e#397#398#0" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
             <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="394">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
             <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
           </folding>
         </state>
       </provider>

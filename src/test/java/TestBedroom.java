@@ -36,5 +36,10 @@ public class TestBedroom {
         assertEquals(25.00, singleRoom.getPricePerNight(), 0.01);
     }
 
+    @Test
+    public void singleRoomHasCapacity() {
+        assertEquals(1, singleRoom.getCapacity());
+    }
+
 
 }
