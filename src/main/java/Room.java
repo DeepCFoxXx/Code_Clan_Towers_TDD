@@ -40,4 +40,15 @@ public class Room {
     public ArrayList<Guest> getGuests() {
         return new ArrayList<>(guests);
     }
+
+    public void checkInGuests(ArrayList<Guest> guestsToCheckIn) {
+        if ((guestsToCheckIn.size() > this.capacity) || !isVacant()) {
+            return;
+        }
+        for (Guest guest : guestsToCheckIn) {
+            checkIn(guest);
+        }
+    }
 }
+
+

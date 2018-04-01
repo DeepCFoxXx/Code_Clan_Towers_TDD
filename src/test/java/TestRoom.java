@@ -69,4 +69,14 @@ public class TestRoom {
         assertEquals(1, guests.size());
         assertEquals("Jyn Erso", guests.get(0).getName());
     }
+
+    @Test
+    public void canCheckInMultipleGuests() {
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        guestList.add(guest2);
+        room.checkInGuests(guestList);
+        assertEquals(false, room.isVacant());
+        assertEquals(2, room.numberOfGuests());
+    }
 }
