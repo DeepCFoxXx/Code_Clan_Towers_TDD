@@ -23,7 +23,11 @@ public class Room {
         return numberOfGuests() == 0;
     }
 
-    public void addGuest(Guest guest) {
+    public void checkIn(Guest guest) {
         this.guests.add(guest);
+    }
+
+    public void checkOut() {
+        this.guests.clear();
     }
 }

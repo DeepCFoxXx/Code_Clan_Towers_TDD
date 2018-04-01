@@ -31,8 +31,16 @@ public class TestRoom {
 
     @Test
     public void canCheckInGuest(){
-        room.addGuest(guest1);
+        room.checkIn(guest1);
         assertEquals(1, room.numberOfGuests());
         assertEquals(false, room.isVacant());
+    }
+
+    @Test
+    public void canCheckoutGuest() {
+        room.checkIn(guest1);
+        room.checkOut();
+        assertEquals(true, room.isVacant());
+        assertEquals(0, room.numberOfGuests());
     }
 }

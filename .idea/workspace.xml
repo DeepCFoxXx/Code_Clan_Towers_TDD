@@ -28,8 +28,8 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="343">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
               <folding>
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#273#274#0" expanded="true" />
@@ -37,6 +37,10 @@
                 <element signature="e#360#361#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#494#495#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,8 +49,8 @@
       <file leaf-file-name="TestRoom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestRoom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="28" column="40" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="324">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
@@ -629,6 +633,23 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestRoom.canCheckoutGuest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRoom" />
+      <option name="METHOD_NAME" value="canCheckoutGuest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TestRoom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -719,10 +740,12 @@
       <item itemvalue="JUnit.TestRoom.hasCapacity" />
       <item itemvalue="JUnit.TestRoom.roomStartsEmpty" />
       <item itemvalue="JUnit.TestRoom.canCheckInGuest" />
+      <item itemvalue="JUnit.TestRoom.canCheckoutGuest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestRoom.canCheckInGuest" />
+        <item itemvalue="JUnit.TestRoom.canCheckoutGuest" />
         <item itemvalue="JUnit.TestRoom.roomStartsEmpty" />
         <item itemvalue="JUnit.TestRoom.hasCapacity" />
         <item itemvalue="JUnit.TestGuest.hasName" />
@@ -751,6 +774,12 @@
     </history-entry>
     <history-entry file="TestRoom_hasCapacity - 2018.04.01 at 12h 45m 27s.xml">
       <configuration name="TestRoom.hasCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRoom_roomStartsEmpty - 2018.04.01 at 12h 49m 42s.xml">
+      <configuration name="TestRoom.roomStartsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestRoom_canCheckInGuest - 2018.04.01 at 12h 52m 46s.xml">
+      <configuration name="TestRoom.canCheckInGuest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -900,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Room.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="343">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
           <folding>
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
@@ -909,14 +938,18 @@
             <element signature="e#360#361#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestRoom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="324">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#446#447#0" expanded="true" />
