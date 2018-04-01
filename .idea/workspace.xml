@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="409">
-              <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="e#336#337#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -57,8 +57,8 @@
       <file leaf-file-name="TestHotel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
+            <state relative-caret-position="304">
+              <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#854#855#0" expanded="true" />
@@ -537,8 +537,8 @@
         <option value="$PROJECT_DIR$/src/main/java/BedroomType.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bedroom.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Hotel.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestHotel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Hotel.java" />
       </list>
     </option>
   </component>
@@ -652,13 +652,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestHotel.canCheckGuestsIntoDiningRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHotel.canCheckGuestOutOfBedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHotel" />
-      <option name="METHOD_NAME" value="canCheckGuestsIntoDiningRoom" />
+      <option name="METHOD_NAME" value="canCheckGuestOutOfBedroom" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -755,19 +755,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestHotel.canCheckGuestsIntoDiningRoom" />
       <item itemvalue="JUnit.TestHotel.cannotCheckTooManyGuestsIntoDiningRoom" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
       <item itemvalue="JUnit.TestHotel.canGetGuestsCheckedIntoBedroom" />
       <item itemvalue="JUnit.TestHotel.canCheckGuestIntoBedroom" />
+      <item itemvalue="JUnit.TestHotel.canCheckGuestOutOfBedroom" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
+        <item itemvalue="JUnit.TestHotel.canCheckGuestOutOfBedroom" />
         <item itemvalue="JUnit.TestHotel.canCheckGuestIntoBedroom" />
         <item itemvalue="JUnit.TestHotel.canGetGuestsCheckedIntoBedroom" />
         <item itemvalue="JUnit.TestHotel.cannotCheckTooManyGuestsIntoDiningRoom" />
-        <item itemvalue="JUnit.TestHotel.canCheckGuestsIntoDiningRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -785,12 +785,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHotel_canCheckGuestsIntoConferenceRoom - 2018.04.01 at 14h 46m 27s.xml">
-      <configuration name="TestHotel.canCheckGuestsIntoConferenceRoom" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestHotel_canCheckGuestsIntoConferenceRoom - 2018.04.01 at 14h 47m 29s.xml">
-      <configuration name="TestHotel.canCheckGuestsIntoConferenceRoom" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestHotel_cannotCheckTooManyGuestsIntoConferenceRoom - 2018.04.01 at 14h 49m 15s.xml">
       <configuration name="TestHotel.cannotCheckTooManyGuestsIntoConferenceRoom" configurationId="JUnit" />
     </history-entry>
@@ -815,6 +809,12 @@
     <history-entry file="All_in_CodeClanTowers_test - 2018.04.01 at 14h 55m 43s.xml">
       <configuration name="All in CodeClanTowers_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestHotel_canCheckGuestOutOfBedroom - 2018.04.01 at 15h 06m 37s.xml">
+      <configuration name="TestHotel.canCheckGuestOutOfBedroom" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CodeClanTowers_test - 2018.04.01 at 15h 06m 43s.xml">
+      <configuration name="All in CodeClanTowers_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -827,12 +827,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27310345" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1001,7 +1001,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           <folding>
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />
@@ -1027,8 +1027,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestHotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="127" column="33" selection-start-line="127" selection-start-column="33" selection-end-line="127" selection-end-column="33" />
+        <state relative-caret-position="304">
+          <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#854#855#0" expanded="true" />

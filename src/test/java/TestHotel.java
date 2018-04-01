@@ -128,4 +128,16 @@ public class TestHotel {
         assertEquals("Leia Organa", guests.get(0).getName());
     }
 
+    @Test
+    public void canCheckGuestOutOfBedroom() {
+        hotel.addBedroom(singleRoom);
+        hotel.addBedroom(doubleRoom);
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        hotel.checkGuestsIntoBedroom(singleRoom.getNumber(), guestList);
+        hotel.checkGuestsOutOfBedroom(singleRoom.getNumber());
+        ArrayList<Guest> guests = hotel.getGuestsCheckedIntoBedroom(singleRoom.getNumber());
+        assertEquals(0, guests.size());
+    }
+
 }

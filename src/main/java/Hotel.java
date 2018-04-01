@@ -67,4 +67,14 @@ public class Hotel {
             }
         }
     }
+
+    public void checkGuestsOutOfBedroom(int number) {
+        for (Bedroom room : bedrooms) {
+            if (room.getNumber() == number) {
+                room.checkOut();
+                return;
+            }
+        }
+    }
+
 }
