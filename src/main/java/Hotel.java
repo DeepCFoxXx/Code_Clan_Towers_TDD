@@ -16,4 +16,8 @@ public class Hotel {
     public String getName() {
         return this.name;
     }
+
+    public int bedroomCount() {
+        return this.bedrooms.size();
+    }
 }

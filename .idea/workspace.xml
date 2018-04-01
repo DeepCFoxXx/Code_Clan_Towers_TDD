@@ -593,7 +593,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHotel.hasName">
+  <component name="RunManager" selected="JUnit.TestHotel.bedroomCountStartsEmpty">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -651,13 +651,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBedroom.singleRoomStartsVacant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestHotel.bedroomCountStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomStartsVacant" />
+      <option name="MAIN_CLASS_NAME" value="TestHotel" />
+      <option name="METHOD_NAME" value="bedroomCountStartsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -737,19 +737,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
       <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
       <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
       <item itemvalue="JUnit.TestHotel.hasName" />
+      <item itemvalue="JUnit.TestHotel.bedroomCountStartsEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHotel.bedroomCountStartsEmpty" />
         <item itemvalue="JUnit.TestHotel.hasName" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
         <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
         <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
-        <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
       </list>
     </recent_temporary>
   </component>

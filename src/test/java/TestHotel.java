@@ -33,4 +33,9 @@ public class TestHotel {
         assertEquals("Galaxy Towers", hotel.getName());
     }
 
+    @Test
+    public void bedroomCountStartsEmpty(){
+        assertEquals(0, hotel.bedroomCount());
+    }
+
 }
