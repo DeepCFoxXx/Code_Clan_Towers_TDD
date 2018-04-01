@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8781753f-0459-4ddb-a142-057f749ac385" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/Bedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Bedroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/TestBedroom.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/TestBedroom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestBedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestBedroom.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +59,8 @@
       <file leaf-file-name="TestBedroom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
+            <state relative-caret-position="289">
+              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
@@ -73,6 +69,8 @@
                 <element signature="e#780#781#0" expanded="true" />
                 <element signature="e#842#843#0" expanded="true" />
                 <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#969#970#0" expanded="true" />
+                <element signature="e#1026#1027#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -543,8 +541,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TestConferenceRoom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/BedroomType.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
         <option value="$PROJECT_DIR$/src/main/java/Bedroom.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBedroom.java" />
       </list>
     </option>
   </component>
@@ -617,7 +615,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomHasCapacity">
+  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomStartsVacant">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -658,23 +656,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBedroom.singleRoomHasNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomHasNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="TestBedroom.singleRoomHasRoomPricePerNight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -699,6 +680,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
       <option name="METHOD_NAME" value="singleRoomHasRoomType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestBedroom.singleRoomStartsVacant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
+      <option name="METHOD_NAME" value="singleRoomStartsVacant" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -761,19 +759,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
+      <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
-        <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -791,12 +789,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestEventRoom_hasCapacity - 2018.04.01 at 13h 17m 47s.xml">
-      <configuration name="TestEventRoom.hasCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDiningRoom_hasName - 2018.04.01 at 13h 21m 07s.xml">
-      <configuration name="TestDiningRoom.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDiningRoom_hasCapacity - 2018.04.01 at 13h 24m 04s.xml">
       <configuration name="TestDiningRoom.hasCapacity" configurationId="JUnit" />
     </history-entry>
@@ -820,6 +812,12 @@
     </history-entry>
     <history-entry file="TestBedroom_singleRoomHasRoomPricePerNight - 2018.04.01 at 13h 59m 39s.xml">
       <configuration name="TestBedroom.singleRoomHasRoomPricePerNight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBedroom_singleRoomHasCapacity - 2018.04.01 at 14h 04m 00s.xml">
+      <configuration name="TestBedroom.singleRoomHasCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestBedroom_singleRoomStartsVacant - 2018.04.01 at 14h 05m 15s.xml">
+      <configuration name="TestBedroom.singleRoomStartsVacant" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1043,8 +1041,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="35" column="55" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="55" />
+        <state relative-caret-position="289">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
@@ -1053,6 +1051,8 @@
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#842#843#0" expanded="true" />
             <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1026#1027#0" expanded="true" />
           </folding>
         </state>
       </provider>
