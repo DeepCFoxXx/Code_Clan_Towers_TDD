@@ -610,7 +610,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomHasRoomType">
+  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomHasRoomPricePerNight">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -651,13 +651,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBedroom.singleRoomHasRoomType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBedroom.singleRoomHasRoomPricePerNight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomHasRoomType" />
+      <option name="METHOD_NAME" value="singleRoomHasRoomPricePerNight" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -668,13 +668,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestConferenceRoom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBedroom.singleRoomHasRoomType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestConferenceRoom" />
-      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
+      <option name="METHOD_NAME" value="singleRoomHasRoomType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -754,19 +754,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestConferenceRoom.hasCapacity" />
       <item itemvalue="JUnit.TestConferenceRoom.hasPricePerDay" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
+      <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasNumber" />
         <item itemvalue="JUnit.TestConferenceRoom.hasPricePerDay" />
-        <item itemvalue="JUnit.TestConferenceRoom.hasCapacity" />
       </list>
     </recent_temporary>
   </component>

@@ -18,4 +18,8 @@ public class Bedroom extends Room {
     public String getType() {
         return this.type.getType();
     }
+
+    public double getPricePerNight() {
+        return this.pricePerNight;
+    }
 }

@@ -31,5 +31,10 @@ public class TestBedroom {
         assertEquals("Single", singleRoom.getType());
     }
 
+    @Test
+    public void singleRoomHasRoomPricePerNight() {
+        assertEquals(25.00, singleRoom.getPricePerNight(), 0.01);
+    }
+
 
 }
