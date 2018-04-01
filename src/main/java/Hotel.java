@@ -44,4 +44,8 @@ public class Hotel {
     public void checkInGuestsToConferenceRoom(ArrayList<Guest> guests) {
         this.conferenceRoom.checkInGuests(guests);
     }
+
+    public void checkInGuestsToDiningRoom(ArrayList<Guest> guests) {
+        this.diningRoom.checkInGuests(guests);
+    }
 }
