@@ -1,0 +1,4 @@
+rootProject.name = 'CodeClanTowers'
+include 'untitled'
+findProject(':untitled')?.name = 'CodeClanTowers'
+
