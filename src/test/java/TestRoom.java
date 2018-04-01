@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestRoom {
@@ -58,5 +60,13 @@ public class TestRoom {
         room.checkIn(guest3);
         assertEquals(false, room.isVacant());
         assertEquals(2, room.numberOfGuests());
+    }
+
+    @Test
+    public void canGetGuestsCheckedIntoRoom() {
+        room.checkIn(guest1);
+        ArrayList<Guest> guests = room.getGuests();
+        assertEquals(1, guests.size());
+        assertEquals("Jyn Erso", guests.get(0).getName());
     }
 }

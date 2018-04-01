@@ -36,4 +36,8 @@ public class Room {
     public boolean isFull() {
         return this.guests.size() == this.capacity;
     }
+
+    public ArrayList<Guest> getGuests() {
+        return new ArrayList<>(guests);
+    }
 }
