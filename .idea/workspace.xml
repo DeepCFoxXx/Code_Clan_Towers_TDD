@@ -599,7 +599,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestHotel.canAddBedroom">
+  <component name="RunManager" selected="JUnit.TestHotel.canSetConferenceRoom">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -614,23 +614,6 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestBedroom.cannotCheckInGuestIfRoomNotVacant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="cannotCheckInGuestIfRoomNotVacant" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -664,6 +647,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestHotel" />
       <option name="METHOD_NAME" value="canAddBedroom" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestHotel.canSetConferenceRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestHotel" />
+      <option name="METHOD_NAME" value="canSetConferenceRoom" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -744,18 +744,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
-      <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
       <item itemvalue="JUnit.TestHotel.hasName" />
       <item itemvalue="JUnit.TestHotel.bedroomCountStartsEmpty" />
       <item itemvalue="JUnit.TestHotel.canAddBedroom" />
+      <item itemvalue="JUnit.TestHotel.canSetConferenceRoom" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestHotel.canSetConferenceRoom" />
         <item itemvalue="JUnit.TestHotel.canAddBedroom" />
         <item itemvalue="JUnit.TestHotel.bedroomCountStartsEmpty" />
         <item itemvalue="JUnit.TestHotel.hasName" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
-        <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
       </list>
     </recent_temporary>
   </component>

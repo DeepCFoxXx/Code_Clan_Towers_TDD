@@ -44,4 +44,10 @@ public class TestHotel {
         assertEquals(1, hotel.bedroomCount());
     }
 
+    @Test
+    public void canSetConferenceRoom() {
+        hotel.setConferenceRoom(conferenceRoom);
+        assertEquals("Coruscant", hotel.getConferenceRoom().getName());
+    }
+
 }

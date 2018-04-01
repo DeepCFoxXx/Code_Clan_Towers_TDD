@@ -24,4 +24,12 @@ public class Hotel {
     public void addBedroom(Bedroom bedroom) {
         this.bedrooms.add(bedroom);
     }
+
+    public void setConferenceRoom(ConferenceRoom conferenceRoom) {
+        this.conferenceRoom = conferenceRoom;
+    }
+
+    public ConferenceRoom getConferenceRoom() {
+        return this.conferenceRoom;
+    }
 }
