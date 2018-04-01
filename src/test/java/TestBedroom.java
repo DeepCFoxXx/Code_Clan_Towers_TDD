@@ -47,5 +47,10 @@ public class TestBedroom {
         assertEquals(false, singleRoom.isFull());
     }
 
+    @Test
+    public void singleRoomStartsEmpty() {
+        assertEquals(0, singleRoom.numberOfGuests());
+        assertEquals(false, singleRoom.isFull());
+    }
 
 }
