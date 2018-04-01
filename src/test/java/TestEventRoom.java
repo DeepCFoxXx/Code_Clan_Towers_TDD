@@ -9,12 +9,17 @@ public class TestEventRoom {
 
     @Before
     public void before() {
-        room = new EventRoom("Hoth", 60);
+        room = new EventRoom("Hoth", 100);
     }
 
     @Test
     public void hasName() {
         assertEquals("Hoth", room.getName());
+    }
+
+    @Test
+    public void hasCapacity() {
+        assertEquals(100, room.getCapacity());
     }
 
 }

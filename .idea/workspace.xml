@@ -588,7 +588,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestEventRoom.hasName">
+  <component name="RunManager" selected="JUnit.TestEventRoom.hasCapacity">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -603,6 +603,23 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestEventRoom.hasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestEventRoom" />
+      <option name="METHOD_NAME" value="hasCapacity" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -636,23 +653,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestRoom" />
       <option name="METHOD_NAME" value="canCheckInMultipleGuests" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestRoom.canGetGuestsCheckedIntoRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRoom" />
-      <option name="METHOD_NAME" value="canGetGuestsCheckedIntoRoom" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -733,18 +733,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
-      <item itemvalue="JUnit.TestRoom.canGetGuestsCheckedIntoRoom" />
       <item itemvalue="JUnit.TestRoom.canCheckInMultipleGuests" />
       <item itemvalue="JUnit.TestRoom.cannotCheckInMoreGuestsThanRoomHolds" />
       <item itemvalue="JUnit.TestEventRoom.hasName" />
+      <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestEventRoom.hasCapacity" />
         <item itemvalue="JUnit.TestEventRoom.hasName" />
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
         <item itemvalue="JUnit.TestRoom.cannotCheckInMoreGuestsThanRoomHolds" />
         <item itemvalue="JUnit.TestRoom.canCheckInMultipleGuests" />
-        <item itemvalue="JUnit.TestRoom.canGetGuestsCheckedIntoRoom" />
       </list>
     </recent_temporary>
   </component>
