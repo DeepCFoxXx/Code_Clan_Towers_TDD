@@ -59,8 +59,8 @@
       <file leaf-file-name="TestBedroom.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="409">
+              <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#610#611#0" expanded="true" />
@@ -71,6 +71,14 @@
                 <element signature="e#914#915#0" expanded="true" />
                 <element signature="e#969#970#0" expanded="true" />
                 <element signature="e#1026#1027#0" expanded="true" />
+                <element signature="e#1403#1404#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
+                <element signature="e#1635#1636#0" expanded="true" />
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
+                <element signature="e#1817#1818#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -615,12 +623,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestBedroom.singleRoomStartsEmpty">
+  <component name="RunManager" selected="JUnit.All in CodeClanTowers_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="All in CodeClanTowers_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanTowers_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TestBedroom.singleRoomHasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
@@ -646,23 +671,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
       <option name="METHOD_NAME" value="singleRoomHasRoomPricePerNight" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TestBedroom.singleRoomHasRoomType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CodeClanTowers_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomHasRoomType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -759,19 +767,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
       <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
       <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
+      <item itemvalue="JUnit.All in CodeClanTowers_test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in CodeClanTowers_test" />
         <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
         <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
-        <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomType" />
       </list>
     </recent_temporary>
   </component>
@@ -789,12 +797,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDiningRoom_hasCapacity - 2018.04.01 at 13h 24m 04s.xml">
-      <configuration name="TestDiningRoom.hasCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestConferenceRoom_hasName - 2018.04.01 at 13h 32m 09s.xml">
-      <configuration name="TestConferenceRoom.hasName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestConferenceRoom_hasCapacity - 2018.04.01 at 13h 33m 25s.xml">
       <configuration name="TestConferenceRoom.hasCapacity" configurationId="JUnit" />
     </history-entry>
@@ -819,10 +821,15 @@
     <history-entry file="TestBedroom_singleRoomStartsVacant - 2018.04.01 at 14h 05m 15s.xml">
       <configuration name="TestBedroom.singleRoomStartsVacant" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestBedroom_singleRoomStartsEmpty - 2018.04.01 at 14h 07m 42s.xml">
+      <configuration name="TestBedroom.singleRoomStartsEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CodeClanTowers_test - 2018.04.01 at 14h 09m 10s.xml">
+      <configuration name="All in CodeClanTowers_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -832,12 +839,12 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.27310345" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1041,8 +1048,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestBedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+        <state relative-caret-position="409">
+          <caret line="86" column="5" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#610#611#0" expanded="true" />
@@ -1053,6 +1060,14 @@
             <element signature="e#914#915#0" expanded="true" />
             <element signature="e#969#970#0" expanded="true" />
             <element signature="e#1026#1027#0" expanded="true" />
+            <element signature="e#1403#1404#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+            <element signature="e#1635#1636#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+            <element signature="e#1817#1818#0" expanded="true" />
           </folding>
         </state>
       </provider>
