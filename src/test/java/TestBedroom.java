@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+
 import static org.junit.Assert.assertEquals;
 
 public class TestBedroom {
@@ -117,6 +119,19 @@ public class TestBedroom {
     public void twinRoomStartsEmpty() {
         assertEquals(0, twinRoom.numberOfGuests());
         assertEquals(false, twinRoom.isFull());
+    }
+
+    @Test
+    public void cannotCheckInGuestIfRoomNotVacant() {
+        ArrayList<Guest> guestList1 = new ArrayList<Guest>();
+        guestList1.add(guest1);
+        ArrayList<Guest> guestList2 = new ArrayList<Guest>();
+        guestList2.add(guest2);
+        doubleRoom.checkInGuests(guestList1);
+        doubleRoom.checkInGuests(guestList2);
+        assertEquals(1, doubleRoom.numberOfGuests());
+        assertEquals(false, doubleRoom.isVacant());
+        assertEquals(false, doubleRoom.isFull());
     }
 
 }

@@ -655,13 +655,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBedroom.singleRoomHasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBedroom.cannotCheckInGuestIfRoomNotVacant" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomHasCapacity" />
+      <option name="METHOD_NAME" value="cannotCheckInGuestIfRoomNotVacant" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -672,13 +672,13 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TestBedroom.singleRoomHasRoomPricePerNight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBedroom.singleRoomHasCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanTowers_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestBedroom" />
-      <option name="METHOD_NAME" value="singleRoomHasRoomPricePerNight" />
+      <option name="METHOD_NAME" value="singleRoomHasCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -775,19 +775,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
       <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
       <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
       <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
       <item itemvalue="JUnit.All in CodeClanTowers_test" />
+      <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in CodeClanTowers_test" />
+        <item itemvalue="JUnit.TestBedroom.cannotCheckInGuestIfRoomNotVacant" />
         <item itemvalue="JUnit.TestBedroom.singleRoomStartsEmpty" />
         <item itemvalue="JUnit.TestBedroom.singleRoomStartsVacant" />
         <item itemvalue="JUnit.TestBedroom.singleRoomHasCapacity" />
-        <item itemvalue="JUnit.TestBedroom.singleRoomHasRoomPricePerNight" />
       </list>
     </recent_temporary>
   </component>
