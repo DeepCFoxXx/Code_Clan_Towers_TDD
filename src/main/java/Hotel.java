@@ -40,4 +40,8 @@ public class Hotel {
     public DiningRoom getDiningRoom() {
         return this.diningRoom;
     }
+
+    public void checkInGuestsToConferenceRoom(ArrayList<Guest> guests) {
+        this.conferenceRoom.checkInGuests(guests);
+    }
 }
