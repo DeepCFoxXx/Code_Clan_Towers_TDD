@@ -104,4 +104,28 @@ public class TestHotel {
         assertEquals(true, hotel.getDiningRoom().isVacant());
     }
 
+    @Test
+    public void canGetGuestsCheckedIntoBedroom() {
+        hotel.addBedroom(singleRoom);
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        singleRoom.checkInGuests(guestList);
+        ArrayList<Guest> guests = hotel.getGuestsCheckedIntoBedroom(singleRoom.getNumber());
+        assertEquals(1, guests.size());
+        assertEquals("Leia Organa", guests.get(0).getName());
+    }
+
+
+    @Test
+    public void canCheckGuestIntoBedroom() {
+        hotel.addBedroom(singleRoom);
+        hotel.addBedroom(doubleRoom);
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        hotel.checkGuestsIntoBedroom(singleRoom.getNumber(), guestList);
+        ArrayList<Guest> guests = hotel.getGuestsCheckedIntoBedroom(singleRoom.getNumber());
+        assertEquals(1, guests.size());
+        assertEquals("Leia Organa", guests.get(0).getName());
+    }
+
 }

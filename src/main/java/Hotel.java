@@ -48,4 +48,23 @@ public class Hotel {
     public void checkInGuestsToDiningRoom(ArrayList<Guest> guests) {
         this.diningRoom.checkInGuests(guests);
     }
+
+
+    public ArrayList<Guest> getGuestsCheckedIntoBedroom(int number) {
+        for (Bedroom room : bedrooms) {
+            if (room.getNumber() == number) {
+                return room.getGuests();
+            }
+        }
+        return new ArrayList<Guest>();
+    }
+
+    public void checkGuestsIntoBedroom(int number, ArrayList<Guest> guestList) {
+        for (Bedroom room : bedrooms) {
+            if (room.getNumber() == number) {
+                room.checkInGuests(guestList);
+                return;
+            }
+        }
+    }
 }
