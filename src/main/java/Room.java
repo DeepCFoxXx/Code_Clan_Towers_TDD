@@ -24,10 +24,16 @@ public class Room {
     }
 
     public void checkIn(Guest guest) {
-        this.guests.add(guest);
+        if (!isFull()) {
+            this.guests.add(guest);
+        }
     }
 
     public void checkOut() {
         this.guests.clear();
+    }
+
+    public boolean isFull() {
+        return this.guests.size() == this.capacity;
     }
 }
