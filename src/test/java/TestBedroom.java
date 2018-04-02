@@ -161,4 +161,16 @@ public class TestBedroom {
         assertEquals(2, doubleRoom.getNumberOfNights());
     }
 
+    @Test
+    public void cannotCheckInGuestsForZerofNights() {
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        guestList.add(guest2);
+        doubleRoom.checkInGuestsForNumberOfNights(guestList, 0);
+        assertEquals(0, doubleRoom.numberOfGuests());
+        assertEquals(true, doubleRoom.isVacant());
+        assertEquals(false, doubleRoom.isFull());
+        assertEquals(0, doubleRoom.getNumberOfNights());
+    }
+
 }

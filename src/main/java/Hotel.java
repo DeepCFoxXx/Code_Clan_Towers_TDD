@@ -4,7 +4,7 @@ public class Hotel {
 
     private String name;
     private ArrayList<Bedroom> bedrooms;
-    private DiningRoom  diningRoom;
+    private DiningRoom diningRoom;
     private ConferenceRoom conferenceRoom;
 
     public Hotel(String name) {
@@ -76,5 +76,4 @@ public class Hotel {
             }
         }
     }
-
 }
