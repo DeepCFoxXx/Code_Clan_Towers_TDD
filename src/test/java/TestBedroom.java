@@ -134,4 +134,31 @@ public class TestBedroom {
         assertEquals(false, doubleRoom.isFull());
     }
 
+    @Test
+    public void singleRoomNumberOfNightsStartsZero() {
+        assertEquals(0, singleRoom.getNumberOfNights());
+    }
+
+    @Test
+    public void doubleRoomNumberOfNightsStartsZero() {
+        assertEquals(0, doubleRoom.getNumberOfNights());
+    }
+
+    @Test
+    public void twinRoomNumberOfNightsStartsZero() {
+        assertEquals(0, twinRoom.getNumberOfNights());
+    }
+
+    @Test
+    public void canCheckInGuestsForNumberOfNights() {
+        ArrayList<Guest> guestList = new ArrayList<Guest>();
+        guestList.add(guest1);
+        guestList.add(guest2);
+        doubleRoom.checkInGuestsForNumberOfNights(guestList, 2);
+        assertEquals(2, doubleRoom.numberOfGuests());
+        assertEquals(false, doubleRoom.isVacant());
+        assertEquals(true, doubleRoom.isFull());
+        assertEquals(2, doubleRoom.getNumberOfNights());
+    }
+
 }
